@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Guvi</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    input[type=text] {
+        background: transparent;
+    border: none;
+    border-bottom: 4px solid #bc6d60;
+    margin-bottom: 24px;
+    margin-left: 20px;
+    width: 91%;
+}
+    form{
+            padding:279px;
+            margin: -224px 0px 0px 0px;
+        }
+     .cont{
+            background-color: #d5dad5;
+    padding: 9px;
+        }
+    h3{
+        text-align:center;
+            color:white;
+    }
+    .ad_grocery{
+            background-color: #8e9dd7;
+        margin: 26px 150px 26px 183px;
+            border: 1px solid;
+    border-radius: 6px;
+            box-shadow: 8px 3px 8px 0px;
+    }
+    .grocery{
+            background-color: #d1d8f4;
+            margin: 26px 150px 26px 183px;
+            border: 1px solid;
+            border-radius: 6px;
+            box-shadow: 8px 3px 8px 0px;
+    }
+    .submit{
+        margin-left: 37px;
+    margin-bottom: 25px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 3px;
+    width: 82%;
+    color: white;
+    padding: 4px;
+    }
+    .clear{
+        margin-left: 37px;
+    margin-bottom: 25px;
+    background: transparent;
+    border: 2px solid #8e9dd7;
+    border-radius: 3px;
+    width: 82%;
+    color: black;
+    padding: 4px;
+    }
+    .grocery h3{
+        color:#8e9dd7;
+        
+    }
+    .fa-trash{
+            float:right;
+        color:red
+    }
+    .word{
+        margin-left: 35px;
+        font-weight: bold;
+    }
+    #list_div{
+            margin-right: 55px;
+    }
+
+</style>
+    
+    </head>
+<body>
+<form>
+  <div class="cont">
+    <div class="ad_grocery">
+        <h3>Add Grocery Items</h3>
+        <input type="text"/><br>
+        <button class="submit">Submit Here</button>
+      </div>
+      <div class="grocery">
+        <h3>Grocery Items</h3>
+       <div id="list_div">
+        <label class="word">I</label>
+        <i class="fa fa-trash"></i><br><br>
+        <label class="word">LOVE</label>
+        <i class="fa fa-trash"></i><br><br>
+        <label class="word">JSBEGINNERS!</label>
+        <i class="fa fa-trash"></i><br><br>
+        </div>
+        <button class="clear">Clear Items</button>
+      </div>
+      
+  </div>
+</form>
+
+</body>
+</html>

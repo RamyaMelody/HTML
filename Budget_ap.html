@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Guvi</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.cont{
+    background-color: #d5dad587;
+    padding: 9px;
+}
+            form{
+                margin: 0px 258px 0px 377px;
+            }
+            h4{
+                    margin-bottom: 9px;
+                    font-family: sans-serif;
+                margin-left: 15px
+            }
+    .div1 div{
+        float:left;
+        margin-left: 15px
+    }
+    .div1{
+        margin-bottom: 189px;
+    }
+    #calc{
+        border: 2px solid #5ab244;
+        width: 42%;
+        padding: 9px;
+        border-radius: 4px;    
+    }
+    #calc1{
+        border: 2px solid #c23f0d;
+        width: 42%;
+        padding: 9px;
+        border-radius: 4px;    
+    }
+    .text{
+        border-color: #5ab244;
+    border-radius: 3px;
+    margin-bottom: 9px;
+        margin-top: 6px;
+        padding: 3px;
+    width: 93%;
+    }
+    .text1{
+        border-color: #c23f0d;
+    border-radius: 3px;
+    margin-bottom: 9px;
+        margin-top: 6px;
+        padding: 3px;
+    width: 93%;
+    }
+    #calbut{
+           background: transparent;
+    border-color: #5ab244;
+    padding: 4px;
+    border-radius: 4px; 
+        color:green
+
+    }
+      #adexp_but{
+           background: transparent;
+    border-color: #c23f0d;
+    padding: 4px;
+    border-radius: 4px; 
+        color:#c23f0d
+
+    }
+    .word{
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+     .word1{
+        font-weight: bold;
+        font-family: sans-serif;
+         font-size: 13px;
+    }
+    
+    .fa-dollar{
+            color: blue;
+    font-size: 36px;
+    margin-left: 23px;
+         margin-bottom: 16px;
+    margin-top: 18px;
+    }
+    .fa-money{
+            color: blue;
+    font-size: 36px;
+    margin-left: 23px;
+         margin-bottom: 16px;
+    margin-top: 18px;
+    }
+    .dolar{
+        color: green;
+    font-weight: bold;
+    font-size: 27px;
+    font-family: sans-serif;
+    }
+    .dolar1{
+        color: #c23f0d;
+    font-weight: bold;
+    font-size: 27px;
+    font-family: sans-serif;
+    }
+   /* .fa{
+           margin-bottom: 16px;
+    margin-top: 18px;
+    }*/
+    dl{
+            font-size: 11px;
+    color: #c23f0d;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    .fa-edit{
+        color:blue
+    }
+           
+    </style>
+    
+    </head>
+<body>
+<form>
+  <div class="cont">
+    <h4>BUDGET APP</h4>
+    <div class="div1">
+        <div id="calc">
+            <label>Please Enter Your Budget</label><br>
+            <input type="text" class="text"><br>
+            <button id="calbut">Calculate</button><br>
+        </div>
+        <div>
+            <label class="word">BUDGET</label><br>
+            <i class="fa fa-money" ></i><br>
+            <label class="dolar">$ 2500</label>
+        </div>
+        <div>
+            <label class="word">EXPENSES</label><br>
+            <i class="fa fa-money" ></i><br>
+            <label class="dolar1">&nbsp;&nbsp;$ 60</label>
+        </div>
+        <div>
+            <label class="word">BALANCE</label><br>
+            <i class="fa fa-dollar" ></i><br>
+            <label class="dolar">$ 2440</label>
+        </div>
+    </div><br>
+      
+    <div class="div1">
+        <div id="calc1">
+            <label>Please Enter Your Expense</label><br>
+            <input type="text" class="text1"><br>
+            <label>Please Enter Expense Amount</label><br>
+            <input type="text" class="text1"><br>
+            <button id="adexp_but">Add Expense</button><br>
+        </div>
+        <div>
+            <label class="word1">Expense Title</label><br>
+            <dl>
+            <dt>- BUY COOKIES</dt><br>
+            <dd>- BUY MILK</dd>           
+            </dl>
+            
+        </div>
+        <div>
+            <label class="word1">Expense Value</label><br>
+            <dl>
+            <dd>$10</dd><br>
+            <dd>$50</dd>           
+            </dl>
+            
+        </div>
+        <div>
+            <label class="word1"></label><br>
+            <dl>
+            <dd><i class="fa fa-edit" ></i>&nbsp;<i class="fa fa-trash" ></i></dd><br>
+            <dd><i class="fa fa-edit" ></i>&nbsp;<i class="fa fa-trash" ></i></dd>           
+            </dl>            
+        </div>
+        
+    </div><br>
+        
+  </div>
+</form>
+
+</body>
+</html>
